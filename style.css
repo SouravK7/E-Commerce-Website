@@ -1,1 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    background-image: url('images/index-background.jpg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+}
+/*Nav bar*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: transparent;
+    color: white;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+.logo{
+    font-size: 50px;
+    font-weight: 700;
+}
+.contents{
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+.contents a:hover{
+    color: #fc036b;
+    transition: 0.5s;
+    font-weight: 700;
+    border: 2px solid #fc036b;
+    padding: 10px 15px;
+}
+.contents a{
+    margin: 0 10px;
+}
+/*Main section*/
+section{
+    height: 100vh;
+    margin: 20px;
+}
+.main h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30vh;
+    color: white;
+    font-size: 50px;
+    margin-left: 30px;
+
+}
+.main button{
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    margin-top: 20px;
+    background: #fc036b;
+    border-radius: 30px;
+}
+footer {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.f{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact a{
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
