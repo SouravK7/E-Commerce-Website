@@ -36,13 +36,14 @@ nav{
 .contents{
     font-size: 15px;
     letter-spacing: 3px;
+    border: none;
 }
 .contents a:hover{
     color: #fc036b;
     transition: 0.5s;
-    font-weight: 700;
     border: 2px solid #fc036b;
     padding: 10px 15px;
+    border-radius: 30px;
 }
 .contents a{
     margin: 0 10px;
@@ -69,7 +70,17 @@ section{
     margin-top: 20px;
     background: #fc036b;
     border-radius: 30px;
+    letter-spacing: 2px;
 }
+.main button:hover{
+    background: white;
+    transition: 0.5s;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.363);
+}
+.main button a:hover{
+    color: #fc036b;
+}
+
 footer {
     background-color: black;
     color: white;
